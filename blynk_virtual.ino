@@ -1,7 +1,4 @@
-//Made for arduino
-//by ArduiCreate
-
-#include <ESP8266WiFi.h>//Install these library
+#include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <SimpleTimer.h>
 
@@ -12,7 +9,7 @@ float resolution = vref / 1023.0;
 float temperature;
 float farh;
 
-char auth[] = "te9jFKJgCNqKK4sqqtzMeWmtRuKIiHe7";//yourauthtoken
+char auth[] = "te9jFKJgCNqKK4sqqtzMeWmtRuKIiHe7";//authtoken
 char ssid[] = "Realme 7";//name of your wifi
 char pass[] = "d81fb8ec8435";//password of wifi
 
@@ -41,4 +38,4 @@ void loop()
   Blynk.run();
   timer.run();
 }
-//Thanks for your use
+
