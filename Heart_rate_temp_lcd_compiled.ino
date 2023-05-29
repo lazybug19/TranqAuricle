@@ -8,7 +8,7 @@ volatile int heart_rate;
 volatile int analog_data;              
 volatile int time_between_beats = 600;            
 volatile boolean pulse_signal = false;    
-volatile int beat[10];         //heartbeat values will be sotred in this array    
+volatile int beat[10];         //heartbeat values will be sorted in this array    
 volatile int peak_value = 512;          
 volatile int trough_value = 512;        
 volatile int thresh = 525;              
